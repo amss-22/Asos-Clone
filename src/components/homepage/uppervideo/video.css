@@ -1,0 +1,39 @@
+.video {
+    border: px solid red;
+    width: 80%;
+    margin: auto;
+   position: relative;
+   margin-top: 5rem;
+   
+    
+   
+   
+  
+}
+.child{
+    border: px solid yellow;
+    width: 65%;
+    height: 20%;
+    object-fit: cover;
+    z-index: -100;
+    margin: auto;
+    
+}
+.video-button-link{
+    border: px solid red;
+    float: center;
+    position: absolute;
+    margin-left: 30rem;
+    margin-top: -18rem;
+    padding: 1rem 8rem;
+    font-size: 20px;
+    font-weight: 800;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    color: white;
+    background: black;
+}
+.video-button-link:hover{
+    background-color: white;
+    color: black;
+}

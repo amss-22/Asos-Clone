@@ -1,0 +1,43 @@
+.homepage{
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+   
+    
+}
+.card-container{
+    border: px solid red;
+    display: flex;
+    width: 96%;
+    margin: auto;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.logo-cards{
+    border: px solid red;
+    display: flex;
+    width: 96%;
+    margin: auto;
+    gap: 2rem;
+    height: 180px;
+}
+.shopCards{
+    border: px solid red;
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: auto;
+    gap: 2rem;
+    height: auto;
+}
+.footer{
+    margin-top: 15px;
+}
+.homepage-heading{
+    margin-top: 3rem;
+text-align: center;
+font-size: 1.5rem;
+font-weight: 600;
+}

@@ -1,0 +1,63 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.shopby-link-div{
+    border: px solid red;
+    display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ list-style-type: none;
+ gap: 7px;
+ column-gap: 12rem;
+ 
+ color:#666 ;
+ font-size: 15px;
+ position: absolute
+}
+.shopby-link-div>li:hover
+{
+    color: rgb(65, 127, 243);
+}
+.shopby-div{
+    border: px solid rgb(255, 0, 242);
+    margin-left: 2rem;
+}
+.shopbyimage-div{
+    border: px solid rgb(255, 0, 242);
+
+}
+.shopbyimage-link-div{
+    border: px solid rgb(0, 255, 115);
+    display: grid;
+    
+    list-style-type: none;
+    gap: 7px;
+    column-gap: 3rem;
+    color:#666 ;
+    font-size: 15px;
+    position: absolute;
+}
+
+.image-link-child{
+    border:  px solid rgb(0, 255, 115);
+    display: flex;
+    gap: 1rem;
+    
+}
+.image-link-child>div{
+    height:48px;
+    border: 0.5px solid #666;
+    border-radius: 50%;
+}
+.image-link-child>div:hover{
+    border: 0.5px solid rgb(72, 119, 248); 
+}
+
+.image-link-child img{
+    height: 100%;
+    border-radius: 50%;
+    padding: 1px;
+}
+.image-link-child :hover{
+  color:rgb(83, 83, 253)
+}
